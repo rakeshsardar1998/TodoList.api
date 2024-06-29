@@ -9,8 +9,6 @@ const statusTwoHundred = 200;
 const statusFiveHundred = 500;
 const model = require('./models');
 
-const https = require('https');
-const fs = require('fs');
 
 // data seerders
 
