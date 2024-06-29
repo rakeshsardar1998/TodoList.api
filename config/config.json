@@ -1,0 +1,71 @@
+{
+    "local": {
+        "username": "root",
+        "password": "",
+        "database": "TodoList",
+        "host": "localhost",
+        "instancename": "",
+        "port": "3306",
+        "dialect": "mysql",
+        "pool": {
+            "max": 9,
+            "idle": 9,
+            "acquire": 200000
+        },
+        "define": {
+            "underscored": false,
+            "freezetablename": false,
+            "charset": "utf8",
+            "dialectOptions": {
+                "collate": "utf8_general_ci"
+            },
+            "timestamps": false
+        },
+        "logging": false,
+        "oauth_publickey": "",
+        "token": {
+            "token_host": "",
+            "token_end_point": "",
+            "token_req_body": {
+                "client_id": "",
+                "client_secret": "",
+                "grant_type": ""
+            }
+        }
+    },
+    "prod": {
+        "api_static_url": "",
+        "username": "",
+        "password": "",
+        "database": "",
+        "host": "",
+        "instancename": "",
+        "port": "3306",
+        "dialect": "mysql",
+        "pool": {
+            "max": 9,
+            "idle": 9,
+            "acquire": 200000
+        },
+        "define": {
+            "underscored": false,
+            "freezetablename": false,
+            "charset": "utf8",
+            "dialectOptions": {
+                "collate": "utf8_general_ci"
+            },
+            "timestamps": false
+        },
+        "logging": false,
+        "oauth_publickey": "",
+        "token": {
+            "token_host": "",
+            "token_end_point": "",
+            "token_req_body": {
+                "client_id": "",
+                "client_secret": "",
+                "grant_type": ""
+            }
+        }
+    }
+}
